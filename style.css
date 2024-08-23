@@ -278,31 +278,43 @@ h2{
 }
 
 @media (max-width: 500px){
-     body{
-        height: auto;
-        
-        
+    body{
+       height: auto;
+       width:100%;
+       
 
-     }
-
-     #header{
-        width: 100%;
-        
-     }
-
-     .section-2{
-        position: fixed;
-        width: 400px;
-        left: 500px;
-        top: 1000px;
-        height: 700px;
-     }
-
-     #section-4{
-        width: 250px;
-        padding: 20px;
-        position: relative;
-        top: 200px;
-        left: 350px;
     }
+
+    #header{
+       width: 100%;
+       
+    }
+    
+
+    .section-2{
+       position:relative;
+       width: 400px;
+       left: 200px;
+       top: 600px;
+       height: 700px;
+    }
+
+    #section-4{
+       width: 450px;
+       padding:0px;
+       position: relative;
+       top: -700px;
+       left: 100px;
+   }
+
+   .section-3{
+    position:relative;
+    left:-200px;
+    top:-650px;
+   }
+
+   h1{
+    position:relative;
+    top:15px;
+   }
 }
